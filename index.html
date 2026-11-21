@@ -172,7 +172,7 @@ body{touch-action:manipulation}
 <body>
 <div class="wrap">
   <header>
-    <h1><span id="t1"></span> <span id="t2" class="acc"></span><small>1.2</small></h1>
+    <h1><span id="t1"></span> <span id="t2" class="acc"></span><small>1.3</small></h1>
     <div class="hd">
       <p data-t="keys"></p>
       <div class="lang" role="group" aria-label="Taal / Language"><button type="button" data-lang="nl">NL</button><button type="button" data-lang="en">EN</button></div>
@@ -324,7 +324,7 @@ function audio(){
     try{
       var AC=window.AudioContext||window.webkitAudioContext;
       ctx=new AC();
-      var comp=ctx.createDynamicsCompressor();comp.connect(ctx.destination);
+      var comp=ctx.createDynamicsCompressor();var trim=ctx.createGain();trim.gain.value=0.65;comp.connect(trim);trim.connect(ctx.destination);/* 1.3: ruimte onder het maximum, anders gaan telefoonspeakers kraken bij akkoorden */
       var g0=ctx.createGain(),g1=ctx.createGain(),g2=ctx.createGain(),g3=ctx.createGain();
       chains[0]=link([g0,bq("peaking",210,5,1),bq("lowpass",4800),comp]);
       chains[1]=link([g1,bq("highpass",75),bq("peaking",180,3,1),bq("highshelf",3200,4),bq("lowpass",10000),comp]);
