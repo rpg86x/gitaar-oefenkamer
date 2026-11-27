@@ -1,4 +1,4 @@
-# Gitaar Oefenkamer 1.3 · Guitar Practice Room 1.3
+# Gitaar Oefenkamer 1.4 · Guitar Practice Room 1.4
 
 Een gitaar in je browser om akkoorden te leren. · A guitar in your browser for learning chords.
 
@@ -25,6 +25,7 @@ Open `index.html` in een browser. Er is niets te installeren; alles zit in dat e
 - **Oefenreeksen**: elf akkoordenreeksen; met het ritme aan wisselt de app elke maat naar het volgende akkoord. Toetsen `1`–`4` kiezen een akkoord uit de reeks.
 - **Reggae** (nieuw in 1.1): vereenvoudigde akkoordenreeksen van Three Little Birds, Stir It Up, No Woman, No Cry, Redemption Song en Red Red Wine, plus twee reggae-ritmes met korte, afgedempte aanslag.
 - **Meer ruimte in het geluid** (nieuw in 1.3): akkoorden blijven ruim onder het maximum, zodat telefoonspeakers niet gaan kraken.
+- **Schoon geluid op Android** (nieuw in 1.4): sommige Android-telefoons kraakten omdat de WebView geen audio meer in de buffer had. Op Android gebruikt de app nu een grotere audiobuffer en plant hij noten 20 ms vooruit. Op de computer verandert er niets.
 - **Vast speelscherm** (nieuw in 1.2): op tablet en desktop staat het instrument links vast en scrolt alleen de rechterkant, zodat je bij het aanslaan niet per ongeluk de pagina verschuift.
 - **Taal**: schakel rechtsboven tussen NL en EN.
 
@@ -44,6 +45,7 @@ Open `index.html` in a browser. Nothing to install; everything is in that one fi
 - **Practice sequences**: eleven chord sequences; with the rhythm on, the app moves to the next chord every bar. Keys `1`–`4` pick a chord from the sequence.
 - **Reggae** (new in 1.1): simplified chord sequences for Three Little Birds, Stir It Up, No Woman, No Cry, Redemption Song and Red Red Wine, plus two reggae rhythms with a short, muted strum.
 - **More headroom** (new in 1.3): chords stay well below full scale, so phone speakers no longer crackle.
+- **Clean sound on Android** (new in 1.4): some Android phones crackled because the WebView ran out of audio buffer. On Android the app now uses a larger audio buffer and schedules notes 20 ms ahead. Desktop is unchanged.
 - **Fixed play area** (new in 1.2): on tablet and desktop the instrument stays put on the left and only the right side scrolls, so strumming never moves the page by accident.
 - **Language**: switch between NL and EN in the top right.
 
