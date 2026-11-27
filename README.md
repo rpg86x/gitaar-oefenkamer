@@ -2,6 +2,16 @@
 
 Een gitaar in je browser om akkoorden te leren. · A guitar in your browser for learning chords.
 
+## Phone or tablet?
+
+One app for phones and tablets: the same APK installs on both and adapts to the screen by itself.
+
+- **Phone:** the guitar and strum buttons are at the top; scroll down for chords and rhythms.
+- **Tablet / desktop:** the instrument stays put on the left and only the right side scrolls.
+
+*NL:* één app voor telefoon en tablet. Op de telefoon staat de gitaar bovenaan en scroll je voor akkoorden; op tablet staat het instrument links vast.
+
+
 ## Nederlands
 
 Speel direct: https://rpg86x.github.io/gitaar-oefenkamer/
